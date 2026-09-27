@@ -1,0 +1,14 @@
+{
+  "name": "amazon-perf-node",
+  "version": "1.0.0",
+  "description": "Capture client-side performance metrics (FCP, LCP, Speed Index approx, Rendering Time) for a webpage using Puppeteer + Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:amazon": "node index.js https://www.amazon.com",
+    "start:headful": "node index.js https://www.amazon.com --headful"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
